@@ -40,21 +40,22 @@ The dataset used for this project is the [California Housing dataset](https://ww
 
 ## File Structure
 ```
-california-house-pricing/
-├── app.py
-├── model.py
+californiahousepricing/
 ├── templates/
-│   └── index.html
+│   └── home.html
+├── LRimplementation.ipynb
+├── README.md
+├── app.py
+├── regmodel.pkl
 ├── requirements.txt
-├── data/
-│   └── housing.csv
-└── README.md
+└── scaling.pkl
 ```
-- `app.py`: Flask application for the web interface
-- `model.py`: Machine learning model for predicting housing prices
 - `templates/index.html`: HTML template for the web interface
+- `LRimplementation.ipynb`: Jypyter Notebook with Python code
+- `app.py`: Flask application for the web interface
+- `regmodel.pkl`: Model pickle file
 - `requirements.txt`: List of required Python packages
-- `data/housing.csv`: California Housing dataset
+- `scaling.pkl`: Pickle file to standardization of input data
 
 ## Deployment
 
